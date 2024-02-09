@@ -66,8 +66,8 @@
         - Diffusion Models
         - Motion Synthesis
         - 3D Computer Vision
-    - title: Large Lange Models
-          items:
+    - title: Large Langage Models
+      items:
         - Text-to-Image
         - Text-to-Video
 
