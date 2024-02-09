@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-# Enhancing Image Generation from Textual Prompts
+# Project Links
 
 [Code for the project](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception)
 
