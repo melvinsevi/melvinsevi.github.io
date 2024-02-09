@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Enhancing-IP-Adapter-Generation-Diversity
+description: Project at the MVA
 img: assets/img/IP.png
 importance: 1
 category: work
