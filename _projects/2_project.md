@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-# Referring Image Segmentation via Text-to-Image Diffusion Models
+# Project Links
 
 [Code for the project](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception)
 
