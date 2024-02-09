@@ -52,7 +52,8 @@ Future research directions include exploring more sophisticated methodologies, i
 Our project lays the groundwork for advancing image generation models by proposing a strategic modification to the IP-Adapter architecture. While further validation on larger datasets is necessary, our results showcase the potential of our approach to improve the consistency and expressiveness of generated images.
 
 ## Images
-![Figure 1: Sample Generated Images](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/Image1.png)
-![Figure 2: Comparison of Generated Images](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/Image2.png)
 
+| Sample Generated Images | Comparison of Generated Images |
+|:-----------------------:|:------------------------------:|
+| ![Sample Generated Images](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/Image1.png) | ![Comparison of Generated Images](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/Image2.png) |
 
