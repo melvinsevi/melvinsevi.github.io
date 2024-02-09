@@ -16,24 +16,23 @@
         - Mathematics, Machine Learning, Computer Vision
         - Object Recognition and Computer Vision, Geometric Data Analysis, Kernel Methods in ML, Deep Learning, Reinforcement Learning, Graphs in ML, Generative Models for Images, Theoritical Foundation of Deep Learning.
     - title: Master's degree
-          institution: Sorbonne University, Paris, France
-          year: 2022 - 2023
-          description:
-            - Applied Mathematics
-            - Advance probabilities, Statistics, Convex Analysis and Optimization, Jump Process, C++ programming, Computational Statistics.
+      institution: Sorbonne University, Paris, France
+      year: 2022 - 2023
+      description:
+        - Applied Mathematics
+        - Advance probabilities, Statistics, Convex Analysis and Optimization, Jump Process, C++ programming, Computational Statistics.
     - title: Bachelor's degree
-          institution: Sorbonne University, Paris, France
-          year: 2019 - 2022
-          description:
-            - Mathematics
-            - Probability, Algebra,  Measure Theory, Numerical Analysis, Differential Equations, Topology, Functional Analysis, Arithmetic and Group Theory.
+      institution: Sorbonne University, Paris, France
+      year: 2019 - 2022
+      description:
+        - Mathematics
+        - Probability, Algebra,  Measure Theory, Numerical Analysis, Differential Equations, Topology, Functional Analysis, Arithmetic and Group Theory.
     - title: Bachelor's degree
-          institution: Sorbonne University, Paris, France
-          year: 2019 - 2022
-          description:
-            - Mathematics
-            - Advanced Algorithmic, Artificial Intelligence and Operational Research, Cryptology, Java, C, Data Structures, Databases and SQL, Operating Systems.
-
+      institution: Sorbonne University, Paris, France
+      year: 2019 - 2022
+      description:
+        - Mathematics
+        - Advanced Algorithmic, Artificial Intelligence and Operational Research, Cryptology, Java, C, Data Structures, Databases and SQL, Operating Systems.
 
 - title: Experience
   type: time_table
