@@ -66,6 +66,11 @@
         - Diffusion Models
         - Motion Synthesis
         - 3D Computer Vision
+    - title: Large Lange Models
+          items:
+        - Text-to-Image
+        - Text-to-Video
+
 
 - title: Other Interests
   type: list
