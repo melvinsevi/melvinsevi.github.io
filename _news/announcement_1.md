@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the MVA program at ENS Paris-Saclay
+Joined the MVA program at ENS Paris-Saclay !
