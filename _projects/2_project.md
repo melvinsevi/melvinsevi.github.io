@@ -2,7 +2,7 @@
 layout: page
 title: Referring Image Segmentation via Text-to-Image Diffusion Models
 description: Referring Image Segmentation via Text-to-Image Diffusion Models
-img: assets/img/3.jpg
+img: assets/img/VPD.ppg
 importance: 2
 category: work
 giscus_comments: true
