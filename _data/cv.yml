@@ -14,7 +14,26 @@
       year: 2023 - 2024
       description:
         - Mathematics, Machine Learning, Computer Vision
-        - Object Recognition and Computer Vision, Geometric Data Analysis, Kernel Methods in ML, Deep Learning, Reinforcement Learning, Graphs in ML, Generative Models for Images, Theoritical Foundation of Deep Learning
+        - Object Recognition and Computer Vision, Geometric Data Analysis, Kernel Methods in ML, Deep Learning, Reinforcement Learning, Graphs in ML, Generative Models for Images, Theoritical Foundation of Deep Learning.
+- title: Master's degree
+      institution: Sorbonne University, Paris, France
+      year: 2022 - 2023
+      description:
+        - Applied Mathematics
+        - Advance probabilities, Statistics, Convex Analysis and Optimization, Jump Process, C++ programming, Computational Statistics.
+- title: Bachelor's degree
+      institution: Sorbonne University, Paris, France
+      year: 2019 - 2022
+      description:
+        - Mathematics
+        - Probability, Algebra,  Measure Theory, Numerical Analysis, Differential Equations, Topology, Functional Analysis, Arithmetic and Group Theory.
+- title: Bachelor's degree
+      institution: Sorbonne University, Paris, France
+      year: 2019 - 2022
+      description:
+        - Mathematics
+        - Advanced Algorithmic, Artificial Intelligence and Operational Research, Cryptology, Java, C, Data Structures, Databases and SQL, Operating Systems.
+
 
 - title: Experience
   type: time_table
@@ -31,7 +50,15 @@
     - title: <a href="https://github.com/melvinsevi/MVA-Enhancing-IP-Adapter-Generation-Diversity">Enhancing-IP-Adapter-Generation-Diversity</a>
       year: 2023 - 2024
       description: The primary goal of our project is to enhance the diversity of IP-Adapter's image generation. We aim to ensure that synthesized images exhibit a broader range of variation while maintaining fidelity to the original text.
-
+    - title: <a href="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception"> Referring Image Segmentation via Text-to-Image Diffusion Models</a>
+      year: 2023 - 2024
+      description: The goal of this project is to improve the referring image segmentation task in the Visual Perception VPD model.    
+    - title: <a href="https://github.com/melvinsevi/EM-Algorithm-Implementation-for-Parameter-Estimation-in-Hidden-Markov-Models/blob/main/HMM_EM_Algorithm.ipynbn"> EM Algorithm for Hidden Markov Models </a>
+      year: 2022 - 2023
+      description: I implemented the Expectation-Maximization (EM) algorithm for parameter estimation in Hidden Markov Models, demonstrating mastery over numerical probability concepts and computational statistics
+    - title: <a href="https://drive.google.com/file/d/1DfvNLD83HFWkKL8-qOR9260eFVZbrYgU/view"> Graph Neural Networks Benchmarking Paper Review </a>
+      year: 2022 - 2023
+      description: I completed a thorough review of the ”Benchmarking Graph Neural Networks” paper by Dwivedi et al., providing detailed explanations and insights into the findings and implications of the study.
 - title: Academic Interests
   type: nested_list
   contents:
@@ -45,7 +72,8 @@
   type: list
   contents:
     - <u>Hobbies:</u> 
-      - Hobby 1
-      - Hobby 2
-      - etc.
+      - Football
+      - Basketball
+      - Chess
+      - Music
 
