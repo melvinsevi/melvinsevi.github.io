@@ -13,5 +13,5 @@ related_publications: true
 
 [Code for the project](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception)
 
-[Paper](https://drive.google.com/file/d/1KCziQAcVwNCIS3Zdx_4SBj6GCiE5vS5e/view?usp=sharing)
+[Paper](https://drive.google.com/file/d/1e1sIp7w3ACaU1IZCNyKm4DWd-Ri-ZKvm/view?usp=sharing)
 
