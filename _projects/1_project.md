@@ -2,7 +2,7 @@
 layout: page
 title: project 1
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/IP.jpg
 importance: 1
 category: work
 related_publications: true
@@ -10,7 +10,7 @@ related_publications: true
 
 # Enhancing Image Generation from Textual Prompts
 
-![Figure 3: Comparison of Generated Images](assets/image/IP.png)
+![Figure 3: Comparison of Generated Images](assets/img/IP.png)
 
 
 ## Introduction
@@ -52,7 +52,7 @@ Future research directions include exploring more sophisticated methodologies, i
 Our project lays the groundwork for advancing image generation models by proposing a strategic modification to the IP-Adapter architecture. While further validation on larger datasets is necessary, our results showcase the potential of our approach to improve the consistency and expressiveness of generated images.
 
 ## Images
-![Figure 1: Sample Generated Images](assets/image/Image1.png)
-![Figure 2: Comparison of Generated Images](assets/image/Image2.png)
+![Figure 1: Sample Generated Images](assets/img/Image1.png)
+![Figure 2: Comparison of Generated Images](assets/img/Image2.png)
 
 
