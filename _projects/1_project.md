@@ -10,7 +10,7 @@ related_publications: true
 
 # Enhancing Image Generation from Textual Prompts
 
-![Figure 3: Comparison of Generated Images](assets/img/IP.jng)
+![Figure 3: Comparison of Generated Images](assets/img/IP.png)
 
 
 ## Introduction
