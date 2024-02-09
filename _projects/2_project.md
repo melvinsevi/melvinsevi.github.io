@@ -12,7 +12,7 @@ giscus_comments: true
 
 ## Introduction
 
-![VPD Architecture](![Segmentation Mask Comparison](no_mistake/input_image739.png)
+![VPD Architecture](![Segmentation Mask Comparison](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/VPD.png)
 )
 
 In this project, we aim to improve the performance of the Visual Phrase Grounding (VPD) model proposed by Zha and Rao (Year), focusing particularly on enhancing attention maps for better segmentation accuracy. The VPD model combines vision and language to localize objects referred to by natural language expressions within an image. By refining the attention mechanism of the model, we aim to achieve more accurate and robust object localization.
