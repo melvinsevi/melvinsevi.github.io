@@ -70,6 +70,8 @@
       items:
         - Text-to-Image
         - Text-to-Video
+        - Text-to-Motion
+        - Text-to-3D
 
 
 - title: Other Interests
