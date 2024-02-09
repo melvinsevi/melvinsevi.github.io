@@ -10,7 +10,7 @@ related_publications: true
 
 # Enhancing Image Generation from Textual Prompts
 
-![Figure 3: Comparison of Generated Images](assets/img/IP.png)
+![Figure 3: Comparison of Generated Images](https://github.com/melvinsevi/melvinsevi.github.io/blob/master/assets/img/IP.png)
 
 
 ## Introduction
