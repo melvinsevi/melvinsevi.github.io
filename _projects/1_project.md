@@ -8,74 +8,23 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Enhancing Image Generation from Textual Prompts
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Introduction
+Our project focuses on advancing the capabilities of the IP-Adapter model for generating images from textual prompts. We propose a novel modification to the existing methodology to address the tradeoff between consistency with the reference image and introducing variation in the generated images.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Proposed Modification
+We introduce a cross-attention mechanism between the image embeddings and textual representations prior to the decoupled cross-attention mechanism used in the IP-Adapter model. This modification aims to mitigate the independent impact of the reference image on the generated image, leading to more nuanced and contextually rich outputs.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Training Setup
+We trained the modified IP-Adapter model on a dataset consisting of Rick and Morty cartoon character drawings. The training involved fine-tuning the model on a T4 GPU with a batch size of 4 for 6 epochs. We utilized fine-grained features exclusively and employed Hugging Face's Accelerate library for efficient training.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Results
+Our experimental results demonstrated a slight improvement in consistency and variation compared to the original IP-Adapter model. Quantitative comparisons using CLIP-Score showed promising performance, with our modified model achieving a mean CLIP-T score of 0.32.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Further Research
+Future research directions include exploring more sophisticated methodologies, incorporating token-based representations, leveraging masked datasets for improved training, and aligning with principles from the Vision Transformer (ViT) paper to enhance model capabilities.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Conclusion
+Our project lays the groundwork for advancing image generation models by proposing a strategic modification to the IP-Adapter architecture. While further validation on larger datasets is necessary, our results showcase the potential of our approach to improve the consistency and expressiveness of generated images.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
