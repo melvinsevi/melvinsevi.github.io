@@ -6,7 +6,7 @@ subtitle: About me :)
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: IMG20230228155349.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 
