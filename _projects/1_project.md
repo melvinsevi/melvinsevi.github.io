@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Enhancing-IP-Adapter-Generation-Diversity
-description: Project at the MVA
+description: Enhancing-IP-Adapter-Generation-Diversity
 img: assets/img/IP.png
 importance: 1
 category: work
