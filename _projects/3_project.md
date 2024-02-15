@@ -2,7 +2,7 @@
 layout: page
 title: Expectation Maximization algorithm for Hidden Markov Models
 description: Expectation Maximization algorithm for Hidden Markov Models
-img: assets/img/maxresdefault.png
+img: assets/img/basic-structure-of-a-hidden-markov-model.png
 importance: 2
 category: work
 giscus_comments: true
