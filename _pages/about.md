@@ -9,6 +9,8 @@ profile:
   image: IMG20230228155349.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
+        <p>Paris, France</p>
+
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
