@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published my first paper as a co_author : Continuous, Subject-Specific Attribute Control in T2I Models by Identifying Semantic Directions !
+Published my first paper as a co author : Continuous, Subject-Specific Attribute Control in T2I Models by Identifying Semantic Directions !
