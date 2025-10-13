@@ -18,6 +18,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-<span style="font-family: Arial, sans-serif; font-size: 16px;">I am Melvin Sevi, I just graduated from the Master of Research [MVA](https://www.master-mva.com/)  (Mathematics, Vision, Apprentissage) at [ENS Paris-Saclay](https://www.ens-paris-saclay.fr/) (École Normale Supérieure Paris-Saclay). This renowned program is distinguished in Europe for its emphasis on rigorous research, particularly in the field of machine learning. My academic journey also includes a solid foundation in Applied Mathematics and Computer Science from [Sorbonne University](https://www.sorbonne-universite.fr/), which has fueled my motivation for pushing the boundaries of machine learning.
+<span style="font-family: Arial, sans-serif; font-size: 16px;">
+Hi, I’m Melvin Sevi! I recently graduated from the Master of Research [MVA](https://www.master-mva.com/) (Mathematics, Vision, Apprentissage) at [ENS Paris-Saclay](https://www.ens-paris-saclay.fr/). This program is highly regarded in Europe for its focus on rigorous research in machine learning. Before that, I studied Applied Mathematics and Computer Science at [Sorbonne University](https://www.sorbonne-universite.fr/), which inspired me to push the boundaries of what’s possible in machine learning.
+</span>
 
-<span style="font-family: Arial, sans-serif; font-size: 16px;">My research interests span diverse areas, including Diffusion Models, Language Models, and Multimodal Learning. I am deeply motivated to contribute to innovative developments in these fields. Recently, I completed an internship with the Computer Vision & Learning Group at LMU Munich, under the supervision of Prof. Björn Ommer. I am currently seeking PhD opportunities focusing on NLP and Multimodal Learning.
+<span style="font-family: Arial, sans-serif; font-size: 16px;">
+I’m particularly interested in Diffusion Models, Language Models, and Multimodal Learning. Recently, I completed an internship with the Computer Vision & Learning Group at LMU Munich under Prof. Björn Ommer, where I contributed to a CVPR 2025 paper on text-to-image diffusion models. I’m excited to continue exploring opportunities in research, AI projects, and collaborations that combine machine learning with real-world applications.
+</span>
