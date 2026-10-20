@@ -1,0 +1,123 @@
+// Accessible colors shared by the academic pages in both theme palettes.
+:root {
+  --global-bg-color: #fbfcfe;
+  --global-text-color: #202b3b;
+  --global-text-color-light: #536174;
+  --global-theme-color: #075caa;
+  --global-hover-color: #064a87;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #171b23;
+  --global-text-color: #e5eaf2;
+  --global-text-color-light: #a9b4c5;
+  --global-theme-color: #8cc8ff;
+  --global-hover-color: #b5dbff;
+}
+
+.table {
+  color: var(--global-text-color);
+}
+
+.publications ol.bibliography li .abbr abbr {
+  background-color: #075caa;
+}
+
+.post p a:not(.btn),
+footer a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.publications details.citation {
+  margin-top: 0.5rem;
+
+  summary {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+// Focused refinements for the academic homepage.
+.academic-home {
+  line-height: 1.75;
+
+  .post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .post-title {
+    font-size: clamp(2.25rem, 6vw, 3.25rem);
+    letter-spacing: -0.04em;
+  }
+
+  .desc {
+    max-width: 44rem;
+    margin-bottom: 0;
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+  }
+
+  .profile {
+    max-width: 210px;
+    margin-bottom: 1.5rem;
+
+    .more-info {
+      margin-top: 0.75rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+      text-align: center;
+    }
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  li {
+    margin-bottom: 0.65rem;
+  }
+
+  .news th {
+    min-width: 8rem;
+    white-space: nowrap;
+  }
+
+  .social {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+// Keep focus visible for keyboard navigation in both light and dark mode.
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+pre:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+@media (max-width: 575px) {
+  .academic-home .profile {
+    float: none !important;
+    width: 160px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .academic-home .post-header {
+    margin-bottom: 1.5rem;
+  }
+}

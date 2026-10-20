@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - melvinsevi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - melvinsevi/MVA-Enhancing-IP-Adapter-Generation-Diversity
+  - melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception
+  - melvinsevi/EM-Algorithm-Implementation-for-Parameter-Estimation-in-Hidden-Markov-Models
+  - melvinsevi/projet-motifs-dans-les-graphes

@@ -1,47 +1,36 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: false
-nav_order: 4
+title: Projects
+description: Selected public projects by Melvin Sevi in generative modeling, computer vision, and applied mathematics.
+nav: true
+nav_order: 3
 ---
 
-## GitHub users
+Selected projects from my MVA studies and earlier work. My current research interests are described on the [About page]({{ '/' | relative_url }}), and published research is listed under [Publications]({{ '/publications/' | relative_url }}).
 
-{% if site.data.repositories.github_users %}
+## Generation diversity with IP-Adapter
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+An MVA project exploring diversity in image generation with IP-Adapter.
 
----
+[Code](https://github.com/melvinsevi/MVA-Enhancing-IP-Adapter-Generation-Diversity)
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+## Visual perception with text-to-image diffusion models
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+An MVA project studying the use of text-to-image diffusion models for referring image segmentation.
 
----
+[Code](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception) · [Report](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/Project_Report_RecVis.pdf)
 
-{% endfor %}
-{% endif %}
-{% endif %}
+## Expectation-maximization for hidden Markov models
 
-## GitHub Repositories
+An implementation of the expectation-maximization algorithm for parameter estimation in hidden Markov models.
 
-{% if site.data.repositories.github_repos %}
+[Code](https://github.com/melvinsevi/EM-Algorithm-Implementation-for-Parameter-Estimation-in-Hidden-Markov-Models)
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+## Motif detection in graphs
+
+An earlier project on detecting motifs in graphs.
+
+[Code](https://github.com/melvinsevi/projet-motifs-dans-les-graphes)
+
+Explore more on [GitHub](https://github.com/melvinsevi).

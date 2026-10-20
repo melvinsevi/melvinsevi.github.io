@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published my first paper as a co author : Continuous, Subject-Specific Attribute Control in T2I Models by Identifying Semantic Directions !
+Our work on [continuous, subject-specific attribute control in text-to-image models](https://arxiv.org/abs/2403.17064) is available online.

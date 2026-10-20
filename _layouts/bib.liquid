@@ -159,10 +159,7 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-      {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.html %}
         <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -261,12 +258,15 @@
     {% endif %}
 
     {% if entry.bibtex_show %}
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        {% highlight bibtex %}
-        {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
-      </div>
+      <details class="citation">
+        <summary class="btn btn-sm z-depth-0">BibTeX</summary>
+        {% capture citation_code %}
+          {% highlight bibtex %}
+          {{- entry.bibtex | hideCustomBibtex -}}
+          {% endhighlight %}
+        {% endcapture %}
+        {{ citation_code | replace: '<pre>', '<pre tabindex="0" aria-label="BibTeX citation">' }}
+      </details>
     {% endif %}
 
     {% if entry.video %}

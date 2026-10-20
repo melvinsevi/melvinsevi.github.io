@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started My Research Internship at LMU Munich under the supervision of Björn Ommer and Stefan Baumann !
+Started a research internship at LMU Munich with Björn Ommer and Stefan Baumann.
